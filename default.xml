@@ -50,7 +50,6 @@
   <project path="source/device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" revision="4544f049667463891a02d808f40c70d84eae82b1"/>
   <project path="source/device/nvidia/harmony" name="CyanogenMod/android_device_harmony" remote="github" revision="192a3cca4834d4ab55717051e36ce6cd3019c6f7"/>
   <project path="source/device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="916fc164bdc317318c5da27de430c1c3d26ddf07"/>
-  <project path="source/device/samsung/spica" name="dh-harald/cm_android_device_samsung_spica" remote="github"/>
   <project path="source/device/samsung/jet" name="JetDroid/JetPlatform_device_samsung_jet" remote="github"/>
   <project path="source/device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" revision="cc53a085a7288228e88882c4c4e0f5320f3b8dea"/>
   <project path="source/device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" revision="0e07dd91c29830577741d9e3c3b4f8cbcfb9cec1"/>
@@ -231,7 +230,6 @@
   <project path="source/system/wlan/ti" name="platform/system/wlan/ti" revision="3baca6cc248e0d9a852c25b214c92bc856ae03ea"/>
 
   <project path="source/vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" revision="056619dbd882257c8407f7008bbabac8a5221088"/>
-  <project path="source/vendor/spica" name="dh-harald/cm_android_vendor_spica" remote="github"/>
   <project path="source/vendor/jet" name="JetDroid/JetPlatform_vendor_jet" remote="github"/>
 
 </manifest>
