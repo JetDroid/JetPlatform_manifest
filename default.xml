@@ -4,16 +4,16 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
  <remote name="github" fetch="git://github.com/" />
- <default revision="eclair"
+ <default revision="android-2.1_r2.1p"
            remote="korg" />
 
-  <project path="tools" name="Dopi/JetPlatform_tools" remote="github">
+  <project path="tools" name="Dopi/JetPlatform_tools" remote="github" revision="eclair">
     <copyfile src="build.sh" dest="build.sh" />
   </project>
 
-  <project path="delta" name="Dopi/JetPlatform_delta" remote="github" />
+  <project path="delta" name="Dopi/JetPlatform_delta" remote="github" revision="eclair"/>
 
-  <project path="source/build" name="Dopi/JetPlatform_build" remote="github">
+  <project path="source/build" name="Dopi/JetPlatform_build" remote="github" revision="eclair">
     <copyfile src="core/root.mk" dest="source/Makefile" />
   </project>
 
@@ -34,7 +34,7 @@
 
   <project path="source/hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="source/hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="source/hardware/libhardware_legacy" name="JetDroid/JetPlatform_hardware_libhardware_legacy" remote="github" />
+  <project path="source/hardware/libhardware_legacy" name="JetDroid/JetPlatform_hardware_libhardware_legacy" remote="github" revision="eclair"/>
   <project path="source/hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="source/hardware/ril" name="platform/hardware/ril" />
   <project path="source/hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -92,7 +92,7 @@
   <project path="source/packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="source/packages/apps/Superuser" name="Dopi/JetPlatform_packages_apps_superuser" remote="github" revision="eclair-froyo" />
   <project path="source/packages/apps/Openmanager" name="Dopi/JetPlatform_packages_apps_openmanager" remote="github" revision="master" />
-  <project path="source/packages/apps/JetCalibrate" name="Dopi/JetPlatform_packages_apps_jetcalibrate" remote="github" />
+  <project path="source/packages/apps/JetCalibrate" name="Dopi/JetPlatform_packages_apps_jetcalibrate" remote="github" revision="eclair"/>
 
   <project path="source/packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="source/packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -107,8 +107,8 @@
   <project path="source/packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
 
   <project path="source/external/aes" name="platform/external/aes" />
-  <project path="source/external/alsa-lib" name="Dopi/JetPlatform_external_alsa-lib" remote="github" />
-  <project path="source/external/alsa-utils" name="Dopi/JetPlatform_external_alsa-utils" remote="github" />
+  <project path="source/external/alsa-lib" name="Dopi/JetPlatform_external_alsa-lib" remote="github" revision="eclair"/>
+  <project path="source/external/alsa-utils" name="Dopi/JetPlatform_external_alsa-utils" remote="github" revision="eclair"/>
   <project path="source/external/apache-http" name="platform/external/apache-http" />
   <project path="source/external/astl" name="platform/external/astl" />
   <project path="source/external/bison" name="platform/external/bison" />
@@ -120,7 +120,7 @@
   <project path="source/external/bzip2" name="platform/external/bzip2" />
   <project path="source/external/clearsilver" name="platform/external/clearsilver" />
   <project path="source/external/dbus" name="platform/external/dbus" />
-  <project path="source/external/dhcpcd" name="Dopi/JetPlatform_external_dhcpcd" remote="github" />
+  <project path="source/external/dhcpcd" name="Dopi/JetPlatform_external_dhcpcd" remote="github" revision="eclair"/>
   <project path="source/external/dosfstools" name="platform/external/dosfstools" />
   <project path="source/external/dropbear" name="platform/external/dropbear" />
   <project path="source/external/e2fsprogs" name="platform/external/e2fsprogs" />
@@ -140,7 +140,7 @@
   <project path="source/external/grub" name="platform/external/grub" />
   <project path="source/external/gtest" name="platform/external/gtest" />
   <project path="source/external/icu4c" name="platform/external/icu4c" />
-  <project path="source/external/iperf-2.0.4" name="Dopi/JetPlatform_external_iperf-2.0.4" remote="github" />
+  <project path="source/external/iperf-2.0.4" name="Dopi/JetPlatform_external_iperf-2.0.4" remote="github" revision="eclair"/>
   <project path="source/external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="source/external/iptables" name="platform/external/iptables" />
   <project path="source/external/jdiff" name="platform/external/jdiff" />
@@ -187,8 +187,8 @@
   <project path="source/external/zlib" name="platform/external/zlib" />
 
   <project path="source/vendor/sample" name="platform/vendor/sample" />
-  <project path="source/vendor/sec" name="Dopi/JetPlatform_vendor_sec" remote="github" />
-  <project path="source/vendor/brcm" name="Dopi/JetPlatform_vendor_brcm" remote="github" />
+  <project path="source/vendor/sec" name="Dopi/JetPlatform_vendor_sec" remote="github" revision="eclair"/>
+  <project path="source/vendor/brcm" name="Dopi/JetPlatform_vendor_brcm" remote="github" revision="eclair"/>
 
   <project path="source/cts" name="platform/cts" />
 </manifest>
