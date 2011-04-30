@@ -19,7 +19,7 @@
 
   <project path="source/bionic" name="platform/bionic" revision="d0996bb4cd6b6d0fa7c643a809f01e33adc2638d" />
 
-  <project path="source/bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="source/bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="master"/>
   <project path="source/bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="source/bootable/recovery" name="platform/bootable/recovery" />
 
