@@ -190,7 +190,7 @@
   <project path="source/vendor/sec" name="Dopi/JetPlatform_vendor_sec" remote="github" revision="eclair"/>
   <project path="source/vendor/brcm" name="Dopi/JetPlatform_vendor_brcm" remote="github" revision="eclair"/>
 
-  <project path="source/cts" name="platform/cts" />
+  <project path="source/cts" name="platform/cts" revision="eclair"/>
 </manifest>
 
 
