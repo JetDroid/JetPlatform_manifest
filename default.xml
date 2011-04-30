@@ -4,7 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
  <remote name="github" fetch="git://github.com/" />
- <default revision="android-2.1_r2.1p"
+ <default revision="eclair"
            remote="korg" />
 
   <project path="tools" name="Dopi/JetPlatform_tools" remote="github" revision="eclair">
@@ -17,11 +17,11 @@
     <copyfile src="core/root.mk" dest="source/Makefile" />
   </project>
 
-  <project path="source/bionic" name="platform/bionic" revision="d0996bb4cd6b6d0fa7c643a809f01e33adc2638d" />
+  <project path="source/bionic" name="platform/bionic"/>
 
   <project path="source/bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="master"/>
-  <project path="source/bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="8c3bbe179741dd58175c482e221849ea91c75543" />
-  <project path="source/bootable/recovery" name="platform/bootable/recovery" revision="22d79a5c5eab9c1e86ff2af210bb072689e2d630" />
+  <project path="source/bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
+  <project path="source/bootable/recovery" name="platform/bootable/recovery" />
 
   <project path="source/dalvik" name="platform/dalvik" />
   <project path="source/development" name="platform/development" />
