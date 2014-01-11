@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="aosp"
+           fetch=".." />
   <remote name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
- <remote name="github" fetch="git://github.com/" />
- <default revision="froyo"
-           remote="korg" />
+  <remote name="github" 
+           fetch="git://github.com/" />
+ 
+  <default revision="refs/tags/android-4.4.2_r1"
+           remote="aosp"
+           sync-j="4" />
 
-  <project path="source/prebuilt" name="platform/prebuilt" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
 </manifest>
 
 
